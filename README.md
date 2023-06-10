@@ -11,8 +11,11 @@ This contract is a basic simulation on how NFTs work and to create it
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+- First you need to create string variables
+- Use a function called mappind address and make it public
+- Create a mint function that both parameters has an address and uint 
+- Create a burn function, it is nearly the same as the mint function but replace the "+" with a "-" and add a if statement.
+- Deploy your NFT and try its features.
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
@@ -59,13 +62,6 @@ contract MyToken {
 
 
 }
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
 ```
 
 ## Authors
