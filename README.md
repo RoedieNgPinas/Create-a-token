@@ -4,16 +4,16 @@ This SOLIDITY assessment aims to create an nft token in a simple and easy way in
 
 ## Description
 
-This contract is a basic simulation on how NFTs work and how to create it 
+This contract is a basic simulation on how NFTs work and how to create it.
 
 ## Getting Started
 
 
 ### Executing program
 
-- First you need to create string variables
-- Use a function called mapping address and make it public
-- Create a mint function that both parameters has an address and uint 
+- First you need to create string variables.
+- Use a function called mapping address and make it public.
+- Create a mint function that both parameters has an address and uint.
 - Create a burn function, it is nearly the same as the mint function but replace the "+" with a "-" and add a if statement.
 - Deploy your NFT and try its features.
 ```
